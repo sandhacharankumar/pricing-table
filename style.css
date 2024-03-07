@@ -1,0 +1,65 @@
+body {
+   font-family: "IBM Plex Sans", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   background-color: #14191e;
+   }
+   .pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    gap: 2rem;
+   
+
+   }
+   .pricing-plan{
+    flex: 1 ;
+    background-color: #AD88C6;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+   }
+   .plan-title{
+    text-align: center;
+    font-size:38px;
+    font-weight: 900;
+    
+   }
+   .plan-price{
+    font-size:12px;
+   margin-bottom: 10px;
+   }
+  .plan-features{
+   list-style: none;
+   
+  }
+   .plan-button{
+     color: black;
+      background-color: #6F61C0;
+      border: none;
+      border-radius: 20px;
+      padding: 15px;
+    
+   }
+   .plan-button1{
+      font-size: large;
+      color: black;
+      background-color: #6F61C0;;
+       border: none;
+       border-radius: 20px;
+       padding: 15px;
+    }
+   .pricing-plan li{
+     margin-bottom:20px ;
+
+   }
+
+  /* Hint: What can you do with a media query and flexbox? */
+  @media (max-width: 1250px) {
+   .pricing-container {
+     flex-direction: column;
+     height: 100%;
+   }
+ }
